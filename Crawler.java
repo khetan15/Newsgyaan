@@ -29,6 +29,7 @@ public class Crawler {
             for(Element e:links)
                 {
                 System.out.println(e.attr("abs:href"));
+                System.out.println(" ");
             }
                 
         } catch (IOException ex) {
